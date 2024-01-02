@@ -47,13 +47,17 @@ namespace Server
 
                     await Task.Delay(1000, _applicationLifetime.ApplicationStopping);
                 }
+            }
 
-            }
-            catch (Exception ex)
+            catch (RpcException ex) when (ex.InnerException is OperationCanceledException)
             {
-                await Console.Out.WriteLineAsync(ex.Message);
+                throw new RpcException(new Status(StatusCode.Unavailable, "Shutting down..."));
             }
-            throw new RpcException(new Status(StatusCode.Unavailable, "Shutting down..."));
+
+            catch (OperationCanceledException)
+            {
+                throw new RpcException(new Status(StatusCode.Unavailable, "Shutting down..."));
+            }
         }
     }
 }
