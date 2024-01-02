@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BF3327\\repos\\EF-3726-graceful-shutdown-reproducable-example\\Greeter\\Client\\Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BF3327\\repos\\EF-3726-graceful-shutdown-reproducable-example\\Greeter\\Client\\Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BF3327\\repos\\EF-3726-graceful-shutdown-reproducable-example\\Greeter\\Client\\Client.csproj",
+        "projectName": "Client",
+        "projectPath": "C:\\Users\\BF3327\\repos\\EF-3726-graceful-shutdown-reproducable-example\\Greeter\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\BF3327\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BF3327\\repos\\EF-3726-graceful-shutdown-reproducable-example\\Greeter\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BF3327\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\BF3327\\repos\\Mcp\\Mcp.Protos.Extensions\\Mcp.Protos.Extensions\\bin\\Release": {},
+          "C:\\Users\\BF3327\\repos\\Mip.Protos\\dotnet\\Mip.Protos\\bin\\Release": {},
+          "https://artifactory.danskenet.net/artifactory/api/nuget/db-nuget-si": {},
+          "https://artifactory.danskenet.net/artifactory/api/nuget/db-nuget-superfly": {},
+          "https://artifactory.danskenet.net/artifactory/api/nuget/joined-nuget-buildfeed": {},
+          "https://artifactory.danskenet.net/artifactory/api/nuget/remote-nuget-Sitecore": {},
+          "https://artifactory.danskenet.net/artifactory/api/nuget/remote-nuget-nuget.org": {},
+          "https://artifactory.danskenet.net/artifactory/api/nuget/remote-nuget-powershellgallery": {},
+          "https://artifactory.danskenet.net/artifactory/db-nuget-s2ca-mip/Mcp.Protos.Extensions/": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.25.1, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.59.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.60.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rGcbysdxJAqxDotos0p3Np728sOq1hJZuoaPZjqtKO2oDn0Nk987TL+Rsvl/Ohwk219cysNBqVuY6XFCz8GwKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BF3327\\repos\\EF-3726-graceful-shutdown-reproducable-example\\Greeter\\Client\\Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BF3327\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
+    "C:\\Users\\BF3327\\.nuget\\packages\\grpc.core.api\\2.59.0\\grpc.core.api.2.59.0.nupkg.sha512",
+    "C:\\Users\\BF3327\\.nuget\\packages\\grpc.net.client\\2.59.0\\grpc.net.client.2.59.0.nupkg.sha512",
+    "C:\\Users\\BF3327\\.nuget\\packages\\grpc.net.common\\2.59.0\\grpc.net.common.2.59.0.nupkg.sha512",
+    "C:\\Users\\BF3327\\.nuget\\packages\\grpc.tools\\2.60.0\\grpc.tools.2.60.0.nupkg.sha512",
+    "C:\\Users\\BF3327\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
